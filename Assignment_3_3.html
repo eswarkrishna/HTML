@@ -1,0 +1,47 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body style="align:center;">
+<form name="submit" method="post">
+<fieldset>
+  <p><legend>
+    Step1 : your details
+  </legend>
+  </p>
+  <p>
+    <p>Name  <input type="text" value="First and last Name"/><br></p>
+    <p>Email <input type="email" value="example@domain.com"/><br></p>
+    <p>Phone <input type="text" value=""/><br></p>
+  </p>
+</fieldset>
+<fieldset>
+  <p>
+    <legend>
+    Step 1: Delivery address<br>
+    <legend>
+    <p>Address
+      <textarea name="address" maxlength="250"></textarea>
+    <br></p>
+    <p>Post Code <input type="text"/><br></p>
+    <p>Country <input type="text"/><br></p>
+  </p>
+</fieldset>
+  <fieldset>
+  <p>
+    <legend>
+    Step 1: Card details
+  </legend>
+    Card Type
+    <input type="radio" value="Visa"/>
+    <input type="radio" value="AmEx"/>
+    <input type="radio" value="MasterCard"/><br>
+    Card Number: <input type="text" value=""/><br>
+    Security No: <input type="text" value=""/> <br>
+    Name on card: <input type="text" value=""/> <br>
+  </p>
+</fieldset>
+  <input style="align:center;"type="submit" value="Buy It" name="submit"/>
+</form>
+</body>
+</html>
